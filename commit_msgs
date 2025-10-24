@@ -1,10 +1,12 @@
-
 -----
-
-
------
-
-
------
-
 feat: initial project setup (v1.0.0)
+-----
+
+feat(installer): Translate script to English and update documentation
+
+Translates the entire installer script (`installer_en.py`) from Arabic to English. This includes all comments, docstrings, logging messages, and user-facing print statements to improve code maintainability and accessibility.
+
+- All hardcoded Arabic strings are replaced with English equivalents.
+- Log outputs and console messages are now in English.
+
+docs: Update README.md with comprehensive project structure, interactive usage guide, and examples of how to use the `firewall` package as a library.
