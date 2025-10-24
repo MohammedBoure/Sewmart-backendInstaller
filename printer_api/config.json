@@ -1,0 +1,130 @@
+{
+  "languages": {
+    "ar": {
+      "direction": "rtl",
+      "company_name": "اسم الشركة",
+      "receipt_number": "رقم الإيصال",
+      "date": "التاريخ",
+      "client": "العميل",
+      "sale_type": "نوع البيع",
+      "product": "المنتج",
+      "quantity": "الكمية",
+      "price": "السعر",
+      "total": "الإجمالي",
+      "subtotal": "المجموع الفرعي",
+      "discount": "الخصم",
+      "delivery_cost": "تكلفة التوصيل",
+      "labor_cost": "تكلفة العمال",
+      "grand_total": "الإجمالي",
+      "thanks": "شكراً لتعاملكم معنا",
+      "currency_note": "(المبالغ بالدينار الجزائري)",
+      "debt_summary": "ملخص الديون",
+      "debt_invoices": "فواتير الديون",
+      "remaining": "المتبقي"
+    },
+    "en": {
+      "direction": "ltr",
+      "company_name": "Company Name",
+      "receipt_number": "Receipt Number",
+      "date": "Date",
+      "client": "Client",
+      "sale_type": "Sale Type",
+      "product": "Product",
+      "quantity": "Quantity",
+      "price": "Price",
+      "total": "Total",
+      "subtotal": "Subtotal",
+      "discount": "Discount",
+      "delivery_cost": "Delivery Cost",
+      "labor_cost": "Labor Cost",
+      "grand_total": "Grand Total",
+      "thanks": "Thank you for your business",
+      "currency_note": "(Amounts in Algerian Dinar)",
+      "debt_summary": "Debt Summary",
+      "debt_invoices": "Debt Invoices",
+      "remaining": "Remaining"
+    },
+    "fr": {
+      "direction": "ltr",
+      "company_name": "Nom de l'Entreprise",
+      "receipt_number": "Numéro de Reçu",
+      "date": "Date",
+      "client": "Client",
+      "sale_type": "Type de Vente",
+      "product": "Produit",
+      "quantity": "Quantité",
+      "price": "Prix",
+      "total": "Total",
+      "subtotal": "Sous-Total",
+      "discount": "Remise",
+      "delivery_cost": "Frais de Livraison",
+      "labor_cost": "Frais de Main-d'Œuvre",
+      "grand_total": "Total Général",
+      "thanks": "Merci pour votre confiance",
+      "currency_note": "(Montants en Dinar Algérien)",
+      "debt_summary": "Résumé des Dettes",
+      "debt_invoices": "Factures de Dettes",
+      "remaining": "Restant"
+    }
+  },
+  "print_settings": {
+    "default": {
+      "page_width_pixels": 576,
+      "center_x": 288,
+      "margin": 20,
+      "line_spacing": 10,
+      "y_offset_default": 35,
+      "bottom_margin": 50,
+      "extra_bottom_feed_pixels": 100,
+      "fonts": {
+        "title": {"name": "Tahoma", "height": 36, "weight": 700},
+        "normal_bold": {"name": "Tahoma", "height": 28, "weight": 700},
+        "normal": {"name": "Tahoma", "height": 26, "weight": 400},
+        "small": {"name": "Tahoma", "height": 22, "weight": 400}
+      },
+      "columns_order": ["product", "quantity", "price", "total"],
+      "columns": {
+        "product": {"width_percent": 45, "align": "right", "offset": -10},
+        "quantity": {"width_percent": 15, "align": "center", "offset": 0},
+        "price": {"width_percent": 20, "align": "center", "offset": 0},
+        "total": {"width_percent": 20, "align": "left", "offset": 10}
+      },
+      "debt_columns_order": ["product", "quantity", "price", "total"],
+      "debt_columns": {
+        "product": {"width_percent": 45, "align": "right", "offset": -10},
+        "quantity": {"width_percent": 15, "align": "center", "offset": 0},
+        "price": {"width_percent": 20, "align": "center", "offset": 0},
+        "total": {"width_percent": 20, "align": "left", "offset": 10}
+      }
+    },
+    "xprinter365b": {
+      "page_width_pixels": 566,
+      "center_x": 283,
+      "margin": 0,
+      "line_spacing": 8,
+      "y_offset_default": 30,
+      "bottom_margin": 40,
+      "extra_bottom_feed_pixels": 70,
+      "fonts": {
+        "title": {"name": "Tahoma", "height": 34, "weight": 700},
+        "normal_bold": {"name": "Tahoma", "height": 26, "weight": 700},
+        "normal": {"name": "Tahoma", "height": 24, "weight": 400},
+        "small": {"name": "Tahoma", "height": 20, "weight": 400}
+      },
+      "columns_order": ["product", "quantity", "price", "total"],
+      "columns": {
+        "product": {"width_percent": 35, "align": "left", "offset": 10},
+        "quantity": {"width_percent": 15, "align": "center", "offset": 0},
+        "price": {"width_percent": 25, "align": "center", "offset": 0},
+        "total": {"width_percent": 25, "align": "left", "offset": 10}
+      },
+      "debt_columns_order": ["product", "quantity", "price", "total"],
+      "debt_columns": {
+        "product": {"width_percent": 35, "align": "left", "offset": 10},
+        "quantity": {"width_percent": 15, "align": "center", "offset": 0},
+        "price": {"width_percent": 25, "align": "center", "offset": 0},
+        "total": {"width_percent": 25, "align": "left", "offset": 10}
+      }
+    }
+  }
+}
